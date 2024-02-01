@@ -1,0 +1,320 @@
+@font-face {
+    font-family: 'Satoshi';
+    src: url("./Satoshi-Regular.otf") format('opentype');
+}
+
+@font-face {
+    font-family: 'Söhne';
+    src: url('./TestSöhne-Buch.otf') format('opentype');
+    /* Use 'truetype' for TTF files */
+}
+
+@font-face {
+    font-family: 'Suisse';
+    src: url('./Suisse-Intl-Mono.ttf') format('truetype');
+    /* Use 'truetype' for TTF files */
+}
+
+body {
+    font-family: 'Satoshi', sans-serif;
+}
+
+.container1 {
+    height: auto;
+    max-width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.container-img{
+    height: 200px;
+    width: auto;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+@media (max-width: 430px) {
+    /* Adjust the max-width and other styles for iPhone 14 Pro Max */
+    .container1 {
+        max-width: 100%;
+        padding: 0 10px; /* You can adjust the padding based on your design */
+    }
+    .container-img{
+        margin-top: 55px;
+    }
+
+    .p-container{
+        max-width: 170px;
+    }
+}
+
+.container-ed {
+    padding: 15px;
+    border-radius: 15px;
+    background: linear-gradient(rgba(91, 194, 232, 0.1), rgba(220, 224, 232, 0.2));
+}
+
+.container-in {
+    padding: 15px;
+    border-radius: 15px;
+    background: linear-gradient(rgba(91, 194, 232, 0.1), rgba(220, 224, 232, 0.2));
+}
+
+.container-sk {
+    padding: 15px;
+    border-radius: 15px;
+    background: linear-gradient(rgba(91, 194, 232, 0.1), rgba(220, 224, 232, 0.2));
+}
+
+.container-p {
+    padding: 15px;
+    border-radius: 15px;
+    background: linear-gradient(rgba(91, 194, 232, 0.1), rgba(220, 224, 232, 0.2));
+}
+.container-pq {
+    padding: 15px;
+    border-radius: 15px;
+    background: linear-gradient(rgba(91, 194, 232, 0.1), rgba(220, 224, 232, 0.2));
+    transition: 0.8s;
+}
+.container-pq:hover{
+    color: #D0E5EE;
+}
+
+.container-p2 {
+    height: auto;
+    width: 280px;
+    border: 0.5px solid #b1d2e4;
+    border-radius: 10px;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.p1 {
+    margin: 10px;
+    margin-left: 12px;
+    font-family: 'Satoshi', sans-serif;
+    font-weight: bold;
+    color: "#002147";
+}
+
+
+.navbar {
+    display: flex;
+    width: auto;
+    height: 50px;
+    margin-top: 40px;
+    font-family: 'Suisse', sans-serif;
+}
+
+.btn-uiu {
+    background: none;
+    outline: none;
+    border: none;
+    color: black;
+    transition: 0.3s;
+    margin-top: 10px;
+    margin-left: -6px;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 18px;
+    cursor: default;
+    text-decoration: none;
+}
+
+.btn-uiu:hover {
+    color: orangered;
+}
+
+.skill-btn {
+    background: none;
+    outline: none;
+    border: none;
+    color: black;
+    transition: 0.3s;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 18px;
+    cursor: default;
+    text-decoration: none;
+    margin-top: -15px;
+}
+
+.skill-btn:hover {
+    color: orangered;
+}
+
+
+.btn1 {
+    background-color: white;
+    outline: none;
+    border: none;
+    color: black;
+    transition: 0.3s;
+    font-family: 'Suisse', sans-serif;
+}
+
+.btn1:hover {
+    background-color: #3c3c3c;
+    border-radius: 5px;
+    width: auto;
+    color: white;
+}
+
+.btn2 {
+    background-color: #F3F4F6;
+    border-radius: 5px;
+    width: auto;
+    color: black;
+    font-family: 'Suisse', sans-serif;
+    border: none;
+    transition: 0.5s;
+}
+
+.btn2:hover {
+    color: white;
+    background-color: #1877f2;
+}
+
+.btn3 {
+    background-color: #F3F4F6;
+    border-radius: 5px;
+    width: auto;
+    color: black;
+    font-family: 'Suisse', sans-serif;
+    border: none;
+    transition: 0.5s;
+}
+
+.btn3:hover {
+    color: white;
+    background-color: #C13584;
+}
+
+.btn4 {
+    background-color: #F3F4F6;
+    border-radius: 5px;
+    width: auto;
+    color: black;
+    font-family: 'Suisse', sans-serif;
+    border: none;
+    transition: 0.5s;
+}
+
+.btn4:hover {
+    color: white;
+    background-color: #2867B2;
+}
+
+.btn5 {
+    background-color: #F3F4F6;
+    border-radius: 5px;
+    width: auto;
+    color: black;
+    font-family: 'Suisse', sans-serif;
+    border: none;
+    transition: 0.5s;
+}
+
+.btn5:hover {
+    color: white;
+    background-color: #1DA1F2;
+}
+
+.btn6 {
+    background-color: #F3F4F6;
+    border-radius: 5px;
+    width: auto;
+    color: black;
+    font-family: 'Suisse', sans-serif;
+    border: none;
+    transition: 0.5s;
+}
+
+.btn6:hover {
+    color: white;
+    background-color: #25D366;
+}
+
+.btn7 {
+    background-color: #F3F4F6;
+    border-radius: 5px;
+    width: auto;
+    color: black;
+    font-family: 'Suisse', sans-serif;
+    border: none;
+    transition: 0.5s;
+}
+
+.btn7:hover {
+    color: white;
+    background-color: black;
+}
+
+.btn8 {
+    background-color: #F3F4F6;
+    border-radius: 5px;
+    width: auto;
+    color: black;
+    font-family: 'Suisse', sans-serif;
+    border: none;
+    transition: 0.5s;
+}
+
+.btn8:hover {
+    color: white;
+    background-color: #DB4A39;
+}
+
+
+.sub-btn1 {
+    background-color: #d0e5ee;
+    border-radius: 5px;
+    width: auto;
+    color: black;
+    font-family: 'Suisse', sans-serif;
+    border: none;
+    transition: background-color 0.7s ease, color 0.3s ease;
+    /* Add a transition effect for background-color and color */
+}
+
+.sub-btn1:hover {
+    background-color: #007acc;
+    /* Change to your desired hover background color */
+    color: #ffffff;
+    /* Change to your desired hover text color */
+}
+
+
+.vertical-line {
+    border-left: 1px solid black;
+    /* Adjust the color and thickness as needed */
+    height: 20px;
+    /* Adjust the height of the line as needed */
+    margin-top: 0px;
+}
+
+.container2 {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.container3 {
+    height: 200px;
+    width: 200px;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
