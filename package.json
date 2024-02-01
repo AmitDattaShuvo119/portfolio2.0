@@ -10,10 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@react-pdf-viewer/core": "^3.12.0",
     "file-saver": "^2.0.5",
     "framer-motion": "^11.0.3",
-    "pdfjs-dist": "^4.0.379",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "pdfjs-dist": "^3.4.120",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.3"
