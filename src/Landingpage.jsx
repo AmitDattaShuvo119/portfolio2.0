@@ -134,24 +134,23 @@ const Landingpage = () => {
                   flexWrap: "wrap",
                 }}
               >
-               <Link to={"https://www.facebook.com/profile.php?id=100073515732885"}><button className="btn2">facebook</button></Link> 
-                <button className="btn7">Github</button>
-                <button className="btn4">linkedin</button>
+             <Link to={"https://www.facebook.com/profile.php?id=100073515732885"}><button className="btn2">facebook</button></Link> 
+              <Link to={"https://github.com/AmitDattaShuvo119"}>  <button className="btn7">Github</button></Link>
+              <Link to={"https://www.linkedin.com/in/amitdattashuvo119/"}> <button className="btn4">linkedin</button></Link>
               </div>{" "}
               <br />
               <div
                 style={{
                   display: "flex",
                   gap: "10px",
-                  maxWidth: "350px",
+                  maxWidth: "450px",
                   marginTop: "-15px",
                   flexWrap: "wrap",
                 }}
               >
-                <button className="btn3">instagram</button>
-                <button className="btn5">twitter</button>
-                <button className="btn6">whatsapp</button>
-                <button className="btn8">email</button>
+            <Link to={"https://www.instagram.com/aaami.amitt/"}>   <button className="btn3">instagram</button></Link>
+             <Link to={"https://twitter.com/Aaaamiitt"}>   <button className="btn5">twitter</button></Link>
+             <Link to={"/"}>  <button className="btn8">shuvodatta1128@gmail.com</button></Link>
               </div>
             </div>
             <div>
