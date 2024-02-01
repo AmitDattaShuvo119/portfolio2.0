@@ -134,7 +134,7 @@ const Landingpage = () => {
                   flexWrap: "wrap",
                 }}
               >
-                <button className="btn2">facebook</button>
+               <Link to={"https://www.facebook.com/profile.php?id=100073515732885"}><button className="btn2">facebook</button></Link> 
                 <button className="btn7">Github</button>
                 <button className="btn4">linkedin</button>
               </div>{" "}
